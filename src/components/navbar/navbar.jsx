@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
 import { HiMenuAlt1, HiX } from "react-icons/hi";
 import navico from "../../assets/icons/logo_deestate.png";
-import { navLinks } from "../../data/data";
+import { navLinks } from "../../data/data2";
 import MobileNavLinks from "./MobileNavLinks";
 import NavLink from "./NavLink";
 const Navbar = () => {

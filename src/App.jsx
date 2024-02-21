@@ -1,7 +1,7 @@
 // import "./css/index.css";
 import Properties from "./components/container/Properties";
 import {
-  About2,
+  // About2,
   Contact,
   Footer,
   // Contact,
@@ -19,7 +19,7 @@ export default function App() {
       <Home />
       <Properties />
       <Service />
-      <About2 />
+      {/* <About2 /> */}
       <Contact />
       <Footer />
       {/* <Ratting /> */}

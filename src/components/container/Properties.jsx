@@ -21,28 +21,24 @@ const Properties = () => {
               </div>
             </div>
           </div>
-
-          <button
+          {/* border-radius: 4px; background-color: #5ca1e1; border: none; color:
+          #fff; text-align: center; font-size: 32px; padding: 16px; width:
+          220px; transition: all 0.5s; cursor: pointer; margin: 36px;
+          box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7); */}
+          {/* fix hidden md:block text-white bg-blue-700 hover:bg-blue-800
+          focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium
+          rounded-lg text-sm px-5 py-2.5 text-center items-center
+          dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 */}
+          {/* <button
             type="button"
-            class="hidden md:block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            class="relative  bg-primary border-none transition-all p-4 m-2 "
           >
-            See more
-            <svg
-              class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 14 10"
-            >
-              <path
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M1 5h12m0 0L9 1m4 4L9 9"
-              />
-            </svg>
+            <span>See more</span>
+          </button> */}
+          <button class="rounded-md relative flex h-[50px] w-40 items-center justify-center overflow-hidden bg-blue-600 font-medium text-white shadow-2xl transition-all duration-300 before:absolute before:inset-0 before:border-0 before:border-white before:duration-100 before:ease-linear hover:bg-white hover:text-blue-600 hover:shadow-blue-600 hover:before:border-[25px]">
+            <span class="relative z-10">See More</span>
           </button>
+          {/* <Button /> */}
         </div>
         <div className="mt-12 overflow-x-hidden bg-teal-500 relative ">
           <div className="flex w-full  gap-8  animate-slide">
