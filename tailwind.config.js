@@ -13,7 +13,7 @@ export default {
         Teal: "#2F6C6D",
         HummingBird: "#d1f1ee",
         yellow: "#e4d63b",
-        Solitude: "#e9e9ea",
+        Solitude: "#d9d9d9",
         gray: "#4B4B4C",
       },
       animation: {

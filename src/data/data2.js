@@ -15,6 +15,28 @@ import star2 from "../assets/star2.png";
 import star3 from "../assets/star3.png";
 import star4 from "../assets/star4.png";
 import star5 from "../assets/star5.png";
+export const navLinks = [
+  {
+    id: 1,
+    href: "home",
+    link: "Home",
+  },
+  {
+    id: 2,
+    href: "properties",
+    link: "Properties",
+  },
+  {
+    id: 3,
+    href: "agents",
+    link: "Agents",
+  },
+  {
+    id: 4,
+    href: "contact",
+    link: "Contact",
+  },
+];
 export const companies = [
   {
     id: 1,
