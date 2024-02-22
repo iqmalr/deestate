@@ -23,7 +23,7 @@ const Home = () => {
     visible: { y: 0, opacity: 1 },
   };
   return (
-    <div className="border-b-2 mb-[100px]">
+    <div className="border-b-2 mb-[100px] bg-Solitude">
       <div className="section py-[75px]" id="home">
         <div className="flex items-center justify-center ">
           <img

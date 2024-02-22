@@ -19,12 +19,12 @@ const Properties = () => {
             </div>
           </div>
 
-          <button class="rounded-md relative flex h-[50px] w-40 items-center justify-center overflow-hidden bg-blue-600 font-medium text-white shadow-2xl transition-all duration-300 before:absolute before:inset-0 before:border-0 before:border-white before:duration-100 before:ease-linear hover:bg-white hover:text-blue-600  hover:before:border-[25px]">
+          <button class="rounded-md relative flex h-[50px] w-40 items-center justify-center overflow-hidden bg-blue-600 font-medium text-white shadow-2xl transition-all duration-300 before:absolute before:inset-0 before:border-0 before:border-white before:duration-100 before:ease-linear hover:bg-white hover:text-blue-600 hover:shadow-blue-600 hover:before:border-[25px]">
             <span class="relative z-10">See More</span>
           </button>
           {/* <Button /> */}
         </div>
-        <div className="mt-12 p-4 overflow-x-hidden relative rounded-lg shadow-lg ">
+        <div className="mt-12 overflow-x-hidden relative bg-red-900">
           <div className="flex w-full  gap-8  animate-slide">
             {propertyDetails.map((propertyDetail) => {
               return (

@@ -73,7 +73,7 @@ const Home = () => {
             variants={container}
             initial="hidden"
             whileInView="visible"
-            className=" mx-[20px] md:mx-[100px] h-[200px] md:h-[48px]  text-[#4F91C1] text-opacity-50 flex flex-col md:flex-row justify-between items-center text-4xl  font-bold "
+            className=" mx-[20px] md:mx-[100px] h-[200px] md:h-[48px]  text-primary text-opacity-50 flex flex-col md:flex-row justify-between items-center text-4xl  font-bold "
           >
             {companies.map((company) => (
               <motion.div variants={item} className="" key={company.id}>

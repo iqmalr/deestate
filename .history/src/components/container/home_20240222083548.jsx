@@ -31,12 +31,12 @@ const Home = () => {
             src={hero}
             alt=""
           />
-          <div className="container w-auto t-[50px] md:t-[140px] px-5 md:px-[110px] absolute  flex flex-col justify-between items-center">
-            <h5 className=" font-bold text-[24px] md:text-[58px] leading-auto text-black text-center tracking-tight  ">
+          <div className="container w-auto t-[50px] md:t-[140px] px-5 md:px-[110px] absolute  flex flex-col justify-between items-center bg-slate-700">
+            <h5 className=" font-bold text-[24px] md:text-[58px] leading-auto text-black text-center tracking-tight pb-5 ">
               We <span className="text-primary">Connect You</span> with the
               <span className="text-primary"> Best Property</span> Opportunities
             </h5>
-            <h3 className=" font-medium text-base px-5 md:px-[81px] md:text-xl pb-12 text-center text-[#414141]">
+            <h3 className=" font-bold text-base px-5 md:px-[81px] md:text-xl pb-12 text-center text-[#414141]">
               Explore a variety of properties. Choose the one that suits you
               best
             </h3>
@@ -66,14 +66,14 @@ const Home = () => {
           </div>
         </div>
         <div className="text-center text-xl">
-          <p className="text-base font-semibold mb-[28px] mt-[50px] text-grey opacity-75">
+          <p className="text-base font-semibold mb-[28px] mt-[50px]">
             Trusted by companies
           </p>
           <motion.div
             variants={container}
             initial="hidden"
             whileInView="visible"
-            className=" mx-[20px] md:mx-[100px] h-[200px] md:h-[48px]  text-[#4F91C1] text-opacity-50 flex flex-col md:flex-row justify-between items-center text-4xl  font-bold "
+            className=" mx-[20px] md:mx-[100px] h-[200px] md:h-[48px]  text-primary text-opacity-50 flex flex-col md:flex-row justify-between items-center text-4xl  font-bold "
           >
             {companies.map((company) => (
               <motion.div variants={item} className="" key={company.id}>
