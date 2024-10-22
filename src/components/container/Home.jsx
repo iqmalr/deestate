@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
 import hero from "../../assets/images/Hero.png";
-// import { logos } from "../../data/data";
 import { companies } from "../../data/data2";
 const Home = () => {
   const container = {
