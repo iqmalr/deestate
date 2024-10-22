@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
 import { HiMenuAlt1, HiX } from "react-icons/hi";
+import { Link } from "react-router-dom";
 import navico from "../../assets/icons/logo_deestate.png";
 import { navLinks } from "../../data/data2";
 import MobileNavLinks from "./MobileNavLinks";
@@ -46,9 +47,12 @@ const Navbar = () => {
               return <NavLink key={navLink.id} {...navLink} />;
             })}
           </div>
-          <button className="py-3 px-6 font-bold text-sm border border-solid rounded-lg border-gray">
+          <Link
+            to="/test"
+            className="py-3 px-6 font-bold text-sm border border-solid rounded-lg border-gray"
+          >
             Sign Up
-          </button>
+          </Link>
           {toggle && (
             <motion.div
               initial={{ x: -500, opacity: 0 }}
