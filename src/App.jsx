@@ -1,32 +1,35 @@
-// import "./css/index.css";
-import Properties from "./components/container/Properties";
-import {
-  About2,
-  Contact,
-  Footer,
-  // Contact,
-  // Course,
-  // Footer,
-  Home,
-  Navbar,
-  Service,
-} from "./components/index";
+import HomePage from "./pages/HomePage";
 
 export default function App() {
   return (
-    <div className="font-Poppins ">
-      <Navbar />
-      <Home />
-      <Properties />
-      <Service />
-      <About2 />
-      <Contact />
-      <Footer />
-      {/* <Ratting /> */}
-      {/*  <Course />
-      <Teacher />
-      <Contact />
-      <Footer /> */}
-    </div>
+    <HomePage />
+    // <Routes>
+    //   <Route path="/" element={<HomePage />} />
+    //   <Route path="/test" element={<TestingPage />} />
+    // </Routes>
   );
+}
+
+// <div className="font-Poppins ">
+//   <HomePage />
+// </div>
+{
+  /* <Router>
+  <Routes>
+    <Route path="/" element={<HomePage />} />
+    <Route path="/test" element={<TestingPage />} />
+  </Routes>
+</Router> */
+}
+{
+  /* <HomePage /> */
+}
+{
+  /* <Ratting /> */
+}
+{
+  /*  <Course />
+  <Teacher />
+  <Contact />
+  <Footer /> */
 }

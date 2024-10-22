@@ -30,6 +30,7 @@ const Home = () => {
             className="px-[20px] md:px-[42px] h-[382px] md:h-full "
             src={hero}
             alt=""
+            loading="lazy"
           />
           <div className="container w-auto t-[50px] md:t-[140px] px-5 md:px-[110px] absolute  flex flex-col justify-between items-center">
             <h5 className=" font-bold text-[24px] md:text-[58px] leading-auto text-black text-center tracking-tight  ">
@@ -41,23 +42,23 @@ const Home = () => {
               best
             </h3>
             {/* search */}
-            <div class="mx-auto  ">
-              <form action="" class="relative mx-auto w-max">
+            <div className="mx-auto  ">
+              <form action="" className="relative mx-auto w-max">
                 <input
                   type="search"
-                  class="peer cursor-pointer relative z-10 h-12 w-12 rounded-full border bg-transparent pl-12 outline-none focus:w-full focus:cursor-text focus:border-black focus:pl-16 focus:pr-4"
+                  className="peer cursor-pointer relative z-10 h-12 w-12 rounded-full border bg-transparent pl-12 outline-none focus:w-full focus:cursor-text focus:border-black focus:pl-16 focus:pr-4"
                 />
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="absolute inset-y-0 my-auto h-8 w-12 border-r border-transparent stroke-gray-500 px-3.5 peer-focus:border-black peer-focus:stroke-black"
+                  className="absolute inset-y-0 my-auto h-8 w-12 border-r border-transparent stroke-gray-500 px-3.5 peer-focus:border-black peer-focus:stroke-black"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
-                  stroke-width="2"
+                  strokeWidth="2"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
                   />
                 </svg>
@@ -81,9 +82,6 @@ const Home = () => {
               </motion.div>
             ))}
           </motion.div>
-          {/*  */}
-
-          {/*  */}
         </div>
       </div>
     </div>
