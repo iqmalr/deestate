@@ -6,6 +6,14 @@ export default {
       Poppins: "Poppins",
     },
     extend: {
+      strokeLinecap: {
+        round: "round",
+        square: "square",
+      },
+      strokeLinejoin: {
+        round: "round",
+        bevel: "bevel",
+      },
       colors: {
         primary: "#2B67FF",
         black: "#191919",

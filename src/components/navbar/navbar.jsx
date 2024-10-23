@@ -47,12 +47,9 @@ const Navbar = () => {
               return <NavLink key={navLink.id} {...navLink} />;
             })}
           </div>
-          <Link
-            to="/test"
-            className="py-3 px-6 font-bold text-sm border border-solid rounded-lg border-gray"
-          >
-            Sign Up
-          </Link>
+          <button className="py-3 px-6 font-bold text-sm border border-solid rounded-lg border-gray">
+            <Link to="/test">Sign Up</Link>
+          </button>
           {toggle && (
             <motion.div
               initial={{ x: -500, opacity: 0 }}
